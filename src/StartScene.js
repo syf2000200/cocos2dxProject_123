@@ -25,8 +25,11 @@ var StartLayer = cc.Layer.extend({
         //添加开始菜单
         var startItem = new cc.MenuItemImage(
             res.Start_png,
+            res.Start_A_png,
             function() {
+                var trans = new cc.TransitionPageTurn.create(1, new PlayScene(), false);
                 cc.log('开始按钮被点击');
+                cc.director.runScene(trans);
             },
             this
         );

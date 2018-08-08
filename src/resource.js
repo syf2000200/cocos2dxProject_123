@@ -26,6 +26,8 @@ var res = {
     // HelloWorld_png : "res/HelloWorld.png",
     BackGround_png: 'res/background.png',
     Start_png: 'res/button.png',
+    Start_A_png: 'res/button_active.png',
+    Sushi_plist: 'res/sushi.plist',
     Sushi_png: 'res/sushi.png'
 };
 
